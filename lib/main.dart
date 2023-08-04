@@ -3,6 +3,7 @@ import 'package:counter_app_bloc/screen/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  Bloc.observer = MyBlocObserver();
   runApp(const MyApp());
 }
 
